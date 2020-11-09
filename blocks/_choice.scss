@@ -1,0 +1,133 @@
+.choice{
+padding-top: 44px;
+padding-bottom: 63px;
+}
+.choice__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.choice__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin: 0;
+}
+.choice__text{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #212B31;
+  margin-top: 17px;
+  margin-bottom: 19px;
+}
+.choice__list{
+  margin: 0;
+  padding: 36px 0 0 66px;
+  list-style-type: none;
+}
+.choice__item{
+  margin-bottom: 30px;
+  position: relative;
+
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -64px;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/Frame.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &--potential::before{
+    background-image: url("../img/Great-potential.png");
+  }
+  &--market::before{
+    background-image: url("../img/Frame-1.png");
+  }
+  &--safety::before{
+    background-image: url("../img/Frame-2.png");
+  }
+}
+.choice__box{
+width: 614px;
+padding: 96px 113px 20px 66px;
+background-color: #F6F8F9;
+
+background-image: url("../img/choice-quota.svg");
+background-repeat: no-repeat;
+background-position: 20px 81px;
+
+}
+.choice__box-title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 48px;
+  color: #212B31;
+  margin: 0;
+}
+.choice__box-inner{
+  margin-top: 28px;
+  margin-left: 56px;
+  position: relative;
+
+  &::before{
+    content: "";
+    position: absolute;
+    left: -56px;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/choice-person.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.choice__box-name{
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212B31;
+}
+.choice__box-page{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+  margin: 0;
+  margin-top: 1px;
+
+}
+.choice__ordered-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.choice__ordered-button{
+width: 8px;
+height: 8px;
+background-color:#036FC7;
+border: none;
+border-radius: 50%;
+padding: 0;
+}
+.choice__ordered-button--white{
+  margin-left: 8px;
+  background-color: #036FC7;
+  opacity: 0.2;
+  outline: none;
+}

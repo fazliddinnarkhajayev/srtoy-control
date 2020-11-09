@@ -1,0 +1,66 @@
+
+.control{
+  padding-top: 98px;
+  padding-bottom: 80px;
+}
+.control__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin: 0;
+}
+.control__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+  width: 827px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 21px;
+  margin-bottom: 28px;
+}
+.control__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.control__item{
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  // max-width: 1056px;
+  // margin-left: auto;
+  // margin-right: auto;
+
+    &::after{
+    content: "";
+    height: 272px;
+    width: 416px;
+    margin-left: 80px;
+    height: 272px;
+    background-image: url("../img/tracking-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 402px;
+  }
+  &--reverse{
+    flex-direction: row-reverse;
+  }
+  &--reverse::after{
+    background-image: url("../img/optimization-bg.png");
+    margin-right: 80px;
+  }
+  &--monitor::after{
+    background-image: url("../img/contr-realtime-bg.png");
+  }
+
+  &:not(:last-child){
+    margin-bottom: 64px;
+  }
+}

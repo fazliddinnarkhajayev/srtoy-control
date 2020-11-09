@@ -1,0 +1,103 @@
+.create{
+  padding-top: 143px;
+  padding-bottom: 118px;
+  background-color: #212B31;
+  background-image: url(../img/create-Rectangle.png);
+  background-repeat: no-repeat;
+  background-position:  calc(50% + 380px) 143px;
+  }
+  .create__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .create__list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 589px;
+    padding-left: 32px;
+  }
+  .create__item{
+    position: relative;
+    width: 549px;
+    margin: 0;
+    margin-bottom: 24px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: -40px;
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  }
+
+  .create__link{
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #212B31;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid transparent;
+
+   &:hover{
+     background-color: #FFDD76;
+   }
+   &:active{
+     background-color: #fff;
+     color:#036FC7;
+     border-color:#036FC7;
+   }
+   &--more:hover{
+     background-color: #FFDD76;
+     color:#212831;
+     border-color:#212831;
+   }
+   &--more:active{
+     background-color: #fff;
+     color:#036FC7;
+     border-color:#036FC7;
+   }
+
+    &--more{
+      background-color: #212B31;
+      color: white;
+      border: 1px solid white;
+      margin-left: 16px;
+      }
+  }
+
+  .create__info{
+    margin: 0;
+    margin-top: 170px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .create__info-item{
+    &::before{
+      content: "";
+      display: block;
+      width:100%;
+      height: 48px;
+      background-image: url(../img/create-Frame.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    &:not(:first-child){
+      margin-left: 25px;
+    }
+  }

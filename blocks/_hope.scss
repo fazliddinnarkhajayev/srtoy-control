@@ -1,0 +1,110 @@
+.hope__section{
+  padding-bottom: 200px;
+  padding-top: 94px;
+}
+.hope__container{
+  max-width: 1096px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hope__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin: 0;
+  position: relative;
+  width: 197px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right:-33px;
+    width: 42px;
+    height: 42px;
+    background-image: url("../img/hope-Vector.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.hope__text{
+  width: 857px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+  margin-top: 17px;
+  margin-bottom:116px;
+}
+.hope__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hope__item{
+  position: relative;
+  width: 332px;
+  &:not(:first-child){
+    margin-left: 32px;
+  }
+
+}
+.hope__inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #F6F8F9;
+  border-radius: 5px;
+}
+.hope__page{
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212B31;
+  &::before{
+    content: "";
+    display: block;
+    margin-right: 24px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/Frame-hope.svg);
+  }
+}
+.hope__link{
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #212B31;
+text-decoration: none;
+padding: 13px 25px;
+border-radius: 4px;
+background-color: #fff;
+border: 1px solid transparent;
+
+&:hover{
+  color: #fff;
+  background-color: #FFDD76;
+}
+&:active{
+  border: 1px solid #036FC7;
+  color: #036FC7;;
+  background-color: #fff;
+}
+}

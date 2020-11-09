@@ -1,0 +1,46 @@
+.care{
+  padding-top: 84px;
+padding-bottom: 142px;
+background-image: url("../img/care-bg.png");
+background-repeat: no-repeat;
+background-position: calc(50% + 280px) calc(100% - 71px);
+}
+.care__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  width: 489px;
+  color: #212B31;
+  margin: 0;
+}
+.care__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  width: 542px;
+  color: #72787D;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  }
+  .care__page{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #212B31;
+    position:relative;
+    margin: 0;
+
+    &::after{
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      bottom: 0;
+      content: "";
+      width: 250px;
+      height: 16px;
+      background-color: #FFDD76;
+    }
+  }

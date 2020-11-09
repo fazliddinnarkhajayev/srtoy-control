@@ -1,0 +1,55 @@
+
+.delivery-item{
+  position: relative;
+ &::before{
+   position: absolute;
+   left: -16px;
+  width: 48px;
+  height: 48px;
+  content: "";
+  background-image: url(../img/Frame-car.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ &--otxod::before{
+  background-image: url(../img/Waste-removal.svg);
+ }
+ &--opalubka::before{
+  background-image: url(../img/Formwork.svg);
+ }
+ &--panel::before{
+  background-image: url(../img/Precasts.svg);
+ }
+ &--fasad::before{
+  background-image: url(../img/Facades.svg);
+ }
+ &--otdelka::before{
+  background-image: url(../img/Fit-out.svg);
+ }
+ &--lesa::before{
+  background-image: url(../img/Scaffolding.svg);
+ }
+ &--abarud::before{
+  background-image: url(../img/emel.svg);
+ }
+ &--elektr::before{
+  background-image: url(../img/MEP.svg);
+ }
+}
+.delivery-item__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.delivery-item__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+  margin: 0;
+}

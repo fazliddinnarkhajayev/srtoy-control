@@ -1,0 +1,26 @@
+
+.navigation__link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+  padding-bottom: 10px;
+
+  &:hover{
+    border-bottom:3px solid #FFDD76 ;
+    border-radius: 50%;
+  }
+
+  &:active{
+    color: #036FC7;
+    border-bottom:3px solid #036FC7 ;
+   }
+
+ &--active{
+   color: #036FC7;
+   border-radius: 50%;
+   border-bottom:3px solid #036FC7 ;
+ }
+}

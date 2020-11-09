@@ -1,0 +1,27 @@
+
+.company__list{
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+}
+.company__item{
+  margin-left: 19px;
+  margin-right: 19px;
+
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
+}
+.company__link{
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: baseline;
+}

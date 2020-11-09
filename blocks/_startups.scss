@@ -1,0 +1,19 @@
+
+.startups{
+  padding-top: 63px;
+  padding-bottom: 78px;
+}
+.startups__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width:790px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.startups__item{
+margin: 20px 55px;
+}
