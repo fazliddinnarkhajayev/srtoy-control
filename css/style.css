@@ -402,6 +402,17 @@ template {
   display: none;
 }
 
+.button:hover {
+  color: #212B31;
+  background-color: #FFDD76;
+}
+
+.button:active {
+  color: #036FC7;
+  background-color: #fff;
+  border-color: #036FC7;
+}
+
 .startups {
   padding-top: 63px;
   padding-bottom: 78px;
@@ -1150,7 +1161,7 @@ template {
   bottom: 0;
   left: 15px;
   width: 287px;
-  height: 15px;
+  height: 11px;
   background-color: #FFD042;
 }
 
@@ -1945,17 +1956,5 @@ template {
   line-height: 24px;
   color: #72787D;
   width: 500px;
-}
-
-.button:hover {
-  background-color: #FFDD76;
-  color: #212B31;
-  border: 1px solid #212B31;
-}
-
-.button:active {
-  color: #036FC7;
-  border: 1px solid #036FC7;
-  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
