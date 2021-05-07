@@ -1594,7 +1594,6 @@ template {
 
 .navigation__link:hover {
   border-bottom: 3px solid #FFDD76;
-  border-radius: 50%;
 }
 
 .navigation__link:active {
@@ -1604,7 +1603,6 @@ template {
 
 .navigation__link--active {
   color: #036FC7;
-  border-radius: 50%;
   border-bottom: 3px solid #036FC7;
 }
 
